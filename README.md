@@ -475,4 +475,11 @@ You also can use the provided `Dockerfile` to build your own image:
 docker build -t sgpt .
 ```
 
+加入vim快速鍵
+```
+cat ~/.vimrc
+syntax on
+vnoremap <silent> <C-k> :!sgpt<CR>
+```
+
 Additional documentation: [Azure integration](https://github.com/TheR1D/shell_gpt/wiki/Azure), [Ollama integration](https://github.com/TheR1D/shell_gpt/wiki/Ollama).
